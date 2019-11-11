@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 63.4 49" enable-background="new 0 0 63.4 49" xml:space="preserve">
+    <defs>
+        <style type="text/css">
+        @font-face {
+            font-family: 'HoeflerText-BlackItalic';
+            src: url('../../fonts/HoeflerText/HoeflerText-BlackItalic/HoeflerText-BlackItalic.eot');
+            src: url('../../fonts/HoeflerText/HoeflerText-BlackItalic/HoeflerText-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../../fonts/HoeflerText/HoeflerText-BlackItalic/HoeflerText-BlackItalic.woff') format('woff'), url('../../fonts/HoeflerText/HoeflerText-BlackItalic/HoeflerText-BlackItalic.ttf') format('truetype'), url('../../fonts/HoeflerText/HoeflerText-BlackItalic/HoeflerText-BlackItalic.svg#HoeflerText') format('svg');
+        }
+        </style>
+    </defs>
+    <g>
+        <rect x="4.4" y="11.5" fill="none" width="56.6" height="26" />
+        <text transform="matrix(1.1 0 0 1 29.3385 29.925)" fill="#ffffff" font-family="info-icon" font-size="26">i</text>
+        <g>
+            <path fill="#ffffff" d="M63.4,47.5v-46c0-0.8-0.7-1.5-1.5-1.5H1.5C0.7,0,0,0.7,0,1.5v46C0,48.3,0.7,49,1.5,49h60.4
+			C62.7,49,63.4,48.3,63.4,47.5z M9.9,42.7H3.9v-5.2h6.1V42.7z M9.9,32.3H3.9v-5.2h6.1V32.3z M9.9,21.9H3.9v-5.2h6.1V21.9z
+			 M9.9,11.5H3.9V6.3h6.1V11.5z M49,42.6H13.7V6.3H49V42.6z M58.8,42.7h-6.1v-5.2h6.1V42.7z M58.8,32.3h-6.1v-5.2h6.1V32.3z
+			 M58.8,21.9h-6.1v-5.2h6.1V21.9z M58.8,11.5h-6.1V6.3h6.1V11.5z" />
+        </g>
+    </g>
+</svg>
