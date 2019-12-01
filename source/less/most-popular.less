@@ -1,0 +1,161 @@
+.most-popular {
+  width: 1138px;
+  margin: 0 auto;
+}
+
+.film-list {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 35px 0 0;
+
+  list-style: none;
+}
+
+.film-list__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.film-list__img {
+  width: 114px;
+  height: 157px;
+
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.progress-rating {
+  width: 114px;
+  height: 157px;
+
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.desk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 890px;
+}
+
+.desk-name {
+  margin: 0;
+  padding: 0;
+
+  font-family: "RobotoCondensed Bold", sans-serif;
+  color: #389ef2;
+}
+
+.film-creators {
+  display: flex;
+  //justify-content: space-between;
+}
+
+.film-year,
+.film-director,
+.film-writer {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: "RobotoCondensed Bold", sans-serif;
+}
+
+.film-director {
+  margin: 0 5px;
+  padding: 0 5px;
+
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.film-desk {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  padding-right: 70px;
+  font-size: 18px;
+}
+
+.film-list__param {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 855px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.film-list__param-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.film-list__comments,
+.film-list__rating,
+.film-list__likes {
+  margin: 0;
+  padding: 0;
+
+  padding-left: 90px;
+}
+
+.film-list__comments::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  //top: 35px;
+
+  width: 26px;
+  height: 24px;
+
+  background-image: url("../img/products/actions/share.svg");
+  background-repeat: no-repeat;
+}
+.film-list__comments::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  //top: 35px;
+
+  width: 28px;
+  height: 28px;
+
+  background-image: url("../img/products/actions/comment.svg");
+  background-repeat: no-repeat;
+}
+
+.film-list__rating::before {
+  content: "";
+  position: absolute;
+  left: 26%;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url("../img/products/actions/gradeless.svg");
+  background-repeat: no-repeat;
+}
+
+.film-list__likes::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url("../img/products/actions/heart.svg");
+  background-repeat: no-repeat;
+}
+
+.film-list__link {
+  font-family: "Roboto Bold",sans-serif;
+  color: #389ef2;
+}
+

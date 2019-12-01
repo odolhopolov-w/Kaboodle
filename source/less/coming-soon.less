@@ -1,0 +1,124 @@
+.slider-container{
+  width: 1136px;
+  margin: 0 auto;
+}
+
+.film-card__list {
+  display: flex;
+  min-height: 472px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.film-card__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  margin-right: 230px;
+
+  //background-color: rgba(255, 0, 0, 0.5);
+}
+
+//.film-card__item:last-child {
+//  margin-right: 0;
+//}
+
+.film-card__header, .film-card__year {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.film-card__header {
+  padding-top: 17px;
+  font-size: 20px;
+}
+
+.film-card__year {
+  padding-bottom: 10px;
+}
+
+.film-card__img {
+  width: 220px;
+  min-height: 332px;
+  border-radius: 10px;
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.film-card__param-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0 30px 0 0;
+  list-style: none;
+}
+
+.film-card__param-item {
+  display: flex;
+  justify-content: space-around;
+  width: 130px;
+}
+
+.film-card__param-item > p {
+  padding: 9px 0 10px 0;
+  margin: 0 0 37px;
+
+  font-family: "ProximaNova Bold", sans-serif;
+  font-size: 14px;
+}
+
+.comments::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 35px;
+
+  width: 20px;
+  height: 18px;
+
+  background-image: url("../img/products/actions/share.svg");
+  background-repeat: no-repeat;
+}
+.comments::after {
+  content: "";
+  position: absolute;
+  left: 37%;
+  top: 35px;
+
+  width: 21px;
+  height: 21px;
+
+  background-image: url("../img/products/actions/comment.svg");
+  background-repeat: no-repeat;
+}
+
+.rating::before {
+  content: "";
+  position: absolute;
+  left: 61%;
+  top: 35px;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url("../img/products/actions/gradeless.svg");
+  background-repeat: no-repeat;
+}
+
+.likes::before {
+  content: "";
+  position: absolute;
+  left: 82%;
+  top: 36px;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url("../img/products/actions/heart.svg");
+  background-repeat: no-repeat;
+}
